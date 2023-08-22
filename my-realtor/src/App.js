@@ -5,10 +5,14 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Offers from "./pages/Offers";
 import ForgotPassword from "./pages/ForgotPassword";
+import Header from "./pages/components/Header";
 
 function App() {
   return (
     <>
+      <Router>
+        <Header />
+      </Router>
       <div className="App">hello world</div>
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Router>
